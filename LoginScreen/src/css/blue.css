@@ -1,0 +1,25 @@
+#basePane
+{
+    -fx-background-color: #142850;
+}
+.label
+{
+    -fx-text-fill: #00a8cc;
+}
+#loginButton
+{
+    -fx-text-fill: #142850;
+    -fx-background-color: #00a8cc;
+}
+#userField
+{
+    -fx-background-color: #27496d;
+    -fx-text-fill: #00a8cc;
+    -fx-prompt-text-fill: #0c7b93
+}
+#passField
+{
+    -fx-background-color: #27496d;
+    -fx-text-fill: #00a8cc;
+    -fx-prompt-text-fill: #0c7b93
+}

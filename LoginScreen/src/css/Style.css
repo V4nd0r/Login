@@ -1,0 +1,31 @@
+#basePane
+{
+    -fx-background-color: #63707e;
+}
+.label
+{
+    -fx-text-fill: #f2f6f5;
+}
+#loginButton
+{
+    -fx-text-fill: #63707e;
+    -fx-background-color: #f2f6f5;    
+}
+#loginButton:hover
+{
+    -fx-background-color: #93b5b3;
+    -fx-text-fill: #f2f6f5;    
+}
+
+#userField
+{
+    -fx-background-color: #93b5b3;
+    -fx-text-fill: #f2f6f5;
+    -fx-prompt-text-fill: #c8dad3;
+}
+#passField
+{
+    -fx-background-color: #93b5b3;
+    -fx-text-fill: #f2f6f5;
+    -fx-prompt-text-fill: #c8dad3;
+}

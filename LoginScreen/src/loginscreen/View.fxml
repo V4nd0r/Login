@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="loginscreen.ViewController">
+   <children>
+      <Pane id="basePane" fx:id="basePane" prefHeight="300.0" prefWidth="400.0" stylesheets="@../css/Style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField id="userField" fx:id="userField" layoutX="132.0" layoutY="112.0" promptText="example@example.com">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField id="passField" fx:id="passField" layoutX="132.0" layoutY="165.0" promptText="●●●●●" />
+            <Button id="loginButton" fx:id="loginButton" layoutX="157.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Let me in!" />
+            <Label id="title" fx:id="title" layoutX="162.0" layoutY="14.0" text="Login">
+               <font>
+                  <Font name="Chiller" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="117.0" text="Username:" />
+            <Label layoutX="52.0" layoutY="170.0" text="Password:" />
+            <Label id="statusLabel" fx:id="statusLabel" layoutX="52.0" layoutY="265.0" prefHeight="21.0" prefWidth="265.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
